@@ -10,3 +10,4 @@ Route::view('/contact', 'contact');
 
 Route::resource('jobs', JobController::class);
 
+//Day 20 tegime teise ajutise app projecti
