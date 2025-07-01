@@ -40,3 +40,5 @@ Route::post('/register', [RegisteredUserController::class, 'store']);
 Route::get('/login', [SessionController::class, 'create']);
 Route::post('/login', [SessionController::class, 'store'])->name('login');
 Route::post('/logout', [SessionController::class, 'destroy']);
+
+//Day27: https://github.com/MariannAdelbert/pixel-positions.git
