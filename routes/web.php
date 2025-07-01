@@ -6,6 +6,16 @@ use App\Http\Controllers\SessionController;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Route;
 use PhpParser\Node\Expr\Cast\Array_;
+use App\Jobs\TranslateJob;
+use App\Models\Job;
+
+Route::get('test', function () {
+    $job = Job::first();
+
+    TranslateJob::dispatch($job);
+
+    return 'Done';
+});
 
 Route::view('/', 'home');
 Route::view('/contact', 'contact');
