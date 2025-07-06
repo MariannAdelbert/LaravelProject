@@ -44,3 +44,4 @@ Route::post('/logout', [SessionController::class, 'destroy']);
 //Day27: https://github.com/MariannAdelbert/pixel-positions.git
 //Day28: https://github.com/MariannAdelbert/pixel-positions.git
 //Day29: https://github.com/MariannAdelbert/pixel-positions.git
+//Day30: https://github.com/MariannAdelbert/pixel-positions.git
